@@ -19,9 +19,10 @@ so they overlay pixel-perfectly.
    is one colorable region.
 4. Run `potrace` on each region's mask individually (same canvas size,
    so the coordinate transform is identical every time) → one white path
-   per region. Regions smaller than `min_region_area` px are dropped as
-   anti-aliasing noise (the black line just shows through there, same as
-   the reference file).
+   per region. Regions smaller than `min_region_area` px are treated as
+   anti-aliasing dust: every pixel of the tiny region is merged into
+   whichever larger region is spatially nearest, so it still ends up
+   traced/colored as part of a neighbor instead of being dropped.
 5. Assemble the final SVG: black path first, white paths on top.
 
 Tested end-to-end against `preview.svg`'s companion PNG
@@ -88,7 +89,7 @@ print(result.num_regions_traced, "regions ready to color")
 | field | default | effect |
 |---|---|---|
 | `ink_threshold` | 128 | lower = only very dark pixels count as ink (thinner lines) |
-| `min_region_area` | 12 | raise if you see tiny stray white specks; lower if small real regions (e.g. eye highlights) get dropped |
+| `min_region_area` | 12 | raise if tiny stray white specks are merging into the wrong neighbor as their own visible blob; lower if small real regions (e.g. eye highlights) are getting merged away when they should stay separate |
 | `turdsize` | 2 | potrace speckle suppression on the traced curves themselves |
 | `alphamax` | 1.0 | corner smoothing; 0 = sharp polygon corners, 1.33 = very rounded |
 | `opttolerance` | 0.2 | bezier curve fit tolerance; higher = fewer/smoother curve segments |

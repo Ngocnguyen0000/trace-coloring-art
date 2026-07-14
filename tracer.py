@@ -28,6 +28,7 @@ from typing import Optional
 import numpy as np
 import cv2
 from PIL import Image
+from scipy import ndimage
 
 
 class PotraceNotFoundError(RuntimeError):
@@ -44,8 +45,11 @@ class TraceConfig:
     ink_threshold: int = 128
 
     # Regions (white areas) smaller than this many pixels are treated as
-    # noise/anti-aliasing dust and are simply left uncolored (black shows
-    # through). Raise this if you see tiny stray white slivers.
+    # anti-aliasing dust: instead of being traced as their own path, every
+    # pixel of the region is merged into whichever larger region is
+    # spatially nearest (so it still gets colored later, just as part of
+    # its neighbor rather than standing alone). Raise this if you see tiny
+    # stray white slivers merged into the wrong neighbor.
     min_region_area: int = 12
 
     # potrace smoothing params (see `potrace --help`)
@@ -70,7 +74,7 @@ class TraceResult:
     height: int
     num_regions_total: int
     num_regions_traced: int
-    num_regions_dropped_as_noise: int
+    num_regions_merged_as_noise: int
 
 
 def _check_potrace() -> str:
@@ -158,6 +162,51 @@ def _load_ink_mask(png_path: str, cfg: TraceConfig) -> np.ndarray:
     return ink
 
 
+def _label_regions(
+    bg: np.ndarray, cfg: TraceConfig
+) -> tuple[np.ndarray, list[int], int, int]:
+    """Label connected white regions in `bg` (1 = background/colorable pixel,
+    0 = ink). Any region smaller than `cfg.min_region_area` is merged into
+    whichever larger region is spatially nearest to it -- every one of its
+    pixels is reassigned to that neighbor's label -- rather than being
+    dropped. If every region happens to be "small" (no larger neighbor
+    exists to merge into), they are all left as their own separate regions
+    so no white pixel is ever silently discarded.
+
+    Returns (label_map, final_labels, total_regions_before_merge, num_merged).
+    """
+    n_labels, labels, stats, _ = cv2.connectedComponentsWithStats(
+        bg, connectivity=cfg.connectivity
+    )
+    # label 0 is the "background of bg" == the ink pixels; skip it.
+    region_labels = list(range(1, n_labels))
+    total_regions = len(region_labels)
+
+    small_labels = [lbl for lbl in region_labels if stats[lbl, cv2.CC_STAT_AREA] < cfg.min_region_area]
+    keep_labels = [lbl for lbl in region_labels if stats[lbl, cv2.CC_STAT_AREA] >= cfg.min_region_area]
+
+    merged = labels.copy()
+    num_merged = 0
+
+    if small_labels and keep_labels:
+        # For every pixel, find the nearest pixel belonging to a "keep"
+        # (large-enough) region, then reassign each small region's pixels
+        # to whichever keep-region got the most votes among its own pixels
+        # -- so the whole sliver moves as one piece into one neighbor.
+        seed_mask = np.isin(labels, keep_labels)
+        _, nearest_idx = ndimage.distance_transform_edt(~seed_mask, return_indices=True)
+        nearest_label = labels[nearest_idx[0], nearest_idx[1]]
+        for lbl in small_labels:
+            pixels = labels == lbl
+            votes = nearest_label[pixels]
+            target = int(np.bincount(votes).argmax())
+            merged[pixels] = target
+            num_merged += 1
+
+    final_labels = sorted(int(l) for l in np.unique(merged) if l != 0)
+    return merged, final_labels, total_regions, num_merged
+
+
 def trace_lineart(
     png_path: str,
     out_svg_path: str,
@@ -175,24 +224,15 @@ def trace_lineart(
         # 1) The black line-art layer: trace the ink mask as ONE path.
         black_d = _potrace_svg_path(ink, W, H, cfg, workdir, "ink")
 
-        # 2) The white regions: label connected background components and
-        #    trace each one separately so it can later be targeted/colored
-        #    on its own.
-        n_labels, labels, stats, _ = cv2.connectedComponentsWithStats(
-            bg, connectivity=cfg.connectivity
-        )
-        # label 0 is the "background of bg" == the ink pixels; skip it.
-        region_labels = list(range(1, n_labels))
-        total_regions = len(region_labels)
+        # 2) The white regions: label connected background components
+        #    (merging any too-small ones into their nearest neighbor), then
+        #    trace each surviving region separately so it can later be
+        #    targeted/colored on its own.
+        merged_labels, final_labels, total_regions, num_merged = _label_regions(bg, cfg)
 
         white_ds = []
-        dropped = 0
-        for lbl in region_labels:
-            area = stats[lbl, cv2.CC_STAT_AREA]
-            if area < cfg.min_region_area:
-                dropped += 1
-                continue
-            region_mask = (labels == lbl).astype(np.uint8)
+        for lbl in final_labels:
+            region_mask = (merged_labels == lbl).astype(np.uint8)
             d = _potrace_svg_path(region_mask, W, H, cfg, workdir, f"region_{lbl}")
             if d:
                 white_ds.append(d)
@@ -208,7 +248,7 @@ def trace_lineart(
         height=H,
         num_regions_total=total_regions,
         num_regions_traced=len(white_ds),
-        num_regions_dropped_as_noise=dropped,
+        num_regions_merged_as_noise=num_merged,
     )
 
 

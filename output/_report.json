@@ -4,422 +4,422 @@
   "failed": 0,
   "results": [
     {
-      "file": "C:\\Users\\Admin\\3D Objects\\trace art\\input\\Meccha Chameleon\\1.png",
+      "file": "/Users/ngoc/Documents/Code/trace-coloring-art/input/Meccha Chameleon/1.png",
       "ok": true,
-      "output": "C:\\Users\\Admin\\3D Objects\\trace art\\output\\Meccha Chameleon\\1.svg",
-      "seconds": 0.14,
+      "output": "/Users/ngoc/Documents/Code/trace-coloring-art/output/Meccha Chameleon/1.svg",
+      "seconds": 0.07,
       "width": 600,
       "height": 800,
       "num_regions_total": 2,
       "num_regions_traced": 2,
-      "num_regions_dropped_as_noise": 0
+      "num_regions_merged_as_noise": 0
     },
     {
-      "file": "C:\\Users\\Admin\\3D Objects\\trace art\\input\\Meccha Chameleon\\2.png",
+      "file": "/Users/ngoc/Documents/Code/trace-coloring-art/input/Meccha Chameleon/2.png",
       "ok": true,
-      "output": "C:\\Users\\Admin\\3D Objects\\trace art\\output\\Meccha Chameleon\\2.svg",
-      "seconds": 0.2,
+      "output": "/Users/ngoc/Documents/Code/trace-coloring-art/output/Meccha Chameleon/2.svg",
+      "seconds": 0.08,
       "width": 600,
       "height": 800,
       "num_regions_total": 4,
       "num_regions_traced": 4,
-      "num_regions_dropped_as_noise": 0
+      "num_regions_merged_as_noise": 0
     },
     {
-      "file": "C:\\Users\\Admin\\3D Objects\\trace art\\input\\Meccha Chameleon\\3.png",
+      "file": "/Users/ngoc/Documents/Code/trace-coloring-art/input/Meccha Chameleon/3.png",
       "ok": true,
-      "output": "C:\\Users\\Admin\\3D Objects\\trace art\\output\\Meccha Chameleon\\3.svg",
-      "seconds": 0.16,
+      "output": "/Users/ngoc/Documents/Code/trace-coloring-art/output/Meccha Chameleon/3.svg",
+      "seconds": 0.05,
       "width": 600,
       "height": 800,
       "num_regions_total": 2,
       "num_regions_traced": 2,
-      "num_regions_dropped_as_noise": 0
+      "num_regions_merged_as_noise": 0
     },
     {
-      "file": "C:\\Users\\Admin\\3D Objects\\trace art\\input\\Meccha Chameleon\\4.png",
+      "file": "/Users/ngoc/Documents/Code/trace-coloring-art/input/Meccha Chameleon/4.png",
       "ok": true,
-      "output": "C:\\Users\\Admin\\3D Objects\\trace art\\output\\Meccha Chameleon\\4.svg",
-      "seconds": 0.18,
+      "output": "/Users/ngoc/Documents/Code/trace-coloring-art/output/Meccha Chameleon/4.svg",
+      "seconds": 0.06,
       "width": 600,
       "height": 800,
       "num_regions_total": 3,
       "num_regions_traced": 3,
-      "num_regions_dropped_as_noise": 0
+      "num_regions_merged_as_noise": 0
     },
     {
-      "file": "C:\\Users\\Admin\\3D Objects\\trace art\\input\\Meccha Chameleon\\5.png",
+      "file": "/Users/ngoc/Documents/Code/trace-coloring-art/input/Meccha Chameleon/5.png",
       "ok": true,
-      "output": "C:\\Users\\Admin\\3D Objects\\trace art\\output\\Meccha Chameleon\\5.svg",
-      "seconds": 0.17,
+      "output": "/Users/ngoc/Documents/Code/trace-coloring-art/output/Meccha Chameleon/5.svg",
+      "seconds": 0.05,
       "width": 600,
       "height": 800,
       "num_regions_total": 3,
       "num_regions_traced": 3,
-      "num_regions_dropped_as_noise": 0
+      "num_regions_merged_as_noise": 0
     },
     {
-      "file": "C:\\Users\\Admin\\3D Objects\\trace art\\input\\Meccha Chameleon\\6.png",
+      "file": "/Users/ngoc/Documents/Code/trace-coloring-art/input/Meccha Chameleon/6.png",
       "ok": true,
-      "output": "C:\\Users\\Admin\\3D Objects\\trace art\\output\\Meccha Chameleon\\6.svg",
-      "seconds": 0.2,
+      "output": "/Users/ngoc/Documents/Code/trace-coloring-art/output/Meccha Chameleon/6.svg",
+      "seconds": 0.06,
       "width": 600,
       "height": 800,
       "num_regions_total": 3,
       "num_regions_traced": 3,
-      "num_regions_dropped_as_noise": 0
+      "num_regions_merged_as_noise": 0
     },
     {
-      "file": "C:\\Users\\Admin\\3D Objects\\trace art\\input\\Meccha Chameleon\\7.png",
+      "file": "/Users/ngoc/Documents/Code/trace-coloring-art/input/Meccha Chameleon/7.png",
       "ok": true,
-      "output": "C:\\Users\\Admin\\3D Objects\\trace art\\output\\Meccha Chameleon\\7.svg",
-      "seconds": 0.2,
+      "output": "/Users/ngoc/Documents/Code/trace-coloring-art/output/Meccha Chameleon/7.svg",
+      "seconds": 0.09,
       "width": 600,
       "height": 800,
       "num_regions_total": 5,
       "num_regions_traced": 3,
-      "num_regions_dropped_as_noise": 2
+      "num_regions_merged_as_noise": 2
     },
     {
-      "file": "C:\\Users\\Admin\\3D Objects\\trace art\\input\\Meccha Chameleon\\8.png",
+      "file": "/Users/ngoc/Documents/Code/trace-coloring-art/input/Meccha Chameleon/8.png",
       "ok": true,
-      "output": "C:\\Users\\Admin\\3D Objects\\trace art\\output\\Meccha Chameleon\\8.svg",
-      "seconds": 0.19,
+      "output": "/Users/ngoc/Documents/Code/trace-coloring-art/output/Meccha Chameleon/8.svg",
+      "seconds": 0.06,
       "width": 600,
       "height": 800,
       "num_regions_total": 3,
       "num_regions_traced": 3,
-      "num_regions_dropped_as_noise": 0
+      "num_regions_merged_as_noise": 0
     },
     {
-      "file": "C:\\Users\\Admin\\3D Objects\\trace art\\input\\animal\\thumb-1.png",
+      "file": "/Users/ngoc/Documents/Code/trace-coloring-art/input/animal/thumb-1.png",
       "ok": true,
-      "output": "C:\\Users\\Admin\\3D Objects\\trace art\\output\\animal\\thumb-1.svg",
-      "seconds": 6.84,
+      "output": "/Users/ngoc/Documents/Code/trace-coloring-art/output/animal/thumb-1.svg",
+      "seconds": 2.17,
       "width": 600,
       "height": 800,
       "num_regions_total": 314,
       "num_regions_traced": 301,
-      "num_regions_dropped_as_noise": 13
+      "num_regions_merged_as_noise": 13
     },
     {
-      "file": "C:\\Users\\Admin\\3D Objects\\trace art\\input\\animal\\thumb-2.png",
+      "file": "/Users/ngoc/Documents/Code/trace-coloring-art/input/animal/thumb-2.png",
       "ok": true,
-      "output": "C:\\Users\\Admin\\3D Objects\\trace art\\output\\animal\\thumb-2.svg",
-      "seconds": 2.76,
+      "output": "/Users/ngoc/Documents/Code/trace-coloring-art/output/animal/thumb-2.svg",
+      "seconds": 0.86,
       "width": 600,
       "height": 800,
       "num_regions_total": 132,
       "num_regions_traced": 118,
-      "num_regions_dropped_as_noise": 14
+      "num_regions_merged_as_noise": 14
     },
     {
-      "file": "C:\\Users\\Admin\\3D Objects\\trace art\\input\\animal\\thumb-3.png",
+      "file": "/Users/ngoc/Documents/Code/trace-coloring-art/input/animal/thumb-3.png",
       "ok": true,
-      "output": "C:\\Users\\Admin\\3D Objects\\trace art\\output\\animal\\thumb-3.svg",
-      "seconds": 3.04,
+      "output": "/Users/ngoc/Documents/Code/trace-coloring-art/output/animal/thumb-3.svg",
+      "seconds": 1.0,
       "width": 600,
       "height": 800,
       "num_regions_total": 132,
       "num_regions_traced": 131,
-      "num_regions_dropped_as_noise": 1
+      "num_regions_merged_as_noise": 1
     },
     {
-      "file": "C:\\Users\\Admin\\3D Objects\\trace art\\input\\animal\\thumb-4.png",
+      "file": "/Users/ngoc/Documents/Code/trace-coloring-art/input/animal/thumb-4.png",
       "ok": true,
-      "output": "C:\\Users\\Admin\\3D Objects\\trace art\\output\\animal\\thumb-4.svg",
-      "seconds": 2.73,
+      "output": "/Users/ngoc/Documents/Code/trace-coloring-art/output/animal/thumb-4.svg",
+      "seconds": 1.07,
       "width": 600,
       "height": 800,
       "num_regions_total": 133,
       "num_regions_traced": 128,
-      "num_regions_dropped_as_noise": 5
+      "num_regions_merged_as_noise": 5
     },
     {
-      "file": "C:\\Users\\Admin\\3D Objects\\trace art\\input\\animal\\thumb-5.png",
+      "file": "/Users/ngoc/Documents/Code/trace-coloring-art/input/animal/thumb-5.png",
       "ok": true,
-      "output": "C:\\Users\\Admin\\3D Objects\\trace art\\output\\animal\\thumb-5.svg",
-      "seconds": 1.88,
+      "output": "/Users/ngoc/Documents/Code/trace-coloring-art/output/animal/thumb-5.svg",
+      "seconds": 0.8,
       "width": 600,
       "height": 800,
       "num_regions_total": 89,
       "num_regions_traced": 88,
-      "num_regions_dropped_as_noise": 1
+      "num_regions_merged_as_noise": 1
     },
     {
-      "file": "C:\\Users\\Admin\\3D Objects\\trace art\\input\\animal\\thumb.png",
+      "file": "/Users/ngoc/Documents/Code/trace-coloring-art/input/animal/thumb.png",
       "ok": true,
-      "output": "C:\\Users\\Admin\\3D Objects\\trace art\\output\\animal\\thumb.svg",
-      "seconds": 4.5,
+      "output": "/Users/ngoc/Documents/Code/trace-coloring-art/output/animal/thumb.svg",
+      "seconds": 1.51,
       "width": 600,
       "height": 800,
       "num_regions_total": 241,
       "num_regions_traced": 186,
-      "num_regions_dropped_as_noise": 55
+      "num_regions_merged_as_noise": 55
     },
     {
-      "file": "C:\\Users\\Admin\\3D Objects\\trace art\\input\\anime\\lineart (1).png",
+      "file": "/Users/ngoc/Documents/Code/trace-coloring-art/input/anime/lineart (1).png",
       "ok": true,
-      "output": "C:\\Users\\Admin\\3D Objects\\trace art\\output\\anime\\lineart (1).svg",
-      "seconds": 2.14,
+      "output": "/Users/ngoc/Documents/Code/trace-coloring-art/output/anime/lineart (1).svg",
+      "seconds": 0.73,
       "width": 600,
       "height": 800,
       "num_regions_total": 107,
       "num_regions_traced": 87,
-      "num_regions_dropped_as_noise": 20
+      "num_regions_merged_as_noise": 20
     },
     {
-      "file": "C:\\Users\\Admin\\3D Objects\\trace art\\input\\anime\\lineart (10).png",
+      "file": "/Users/ngoc/Documents/Code/trace-coloring-art/input/anime/lineart (10).png",
       "ok": true,
-      "output": "C:\\Users\\Admin\\3D Objects\\trace art\\output\\anime\\lineart (10).svg",
-      "seconds": 6.15,
+      "output": "/Users/ngoc/Documents/Code/trace-coloring-art/output/anime/lineart (10).svg",
+      "seconds": 2.08,
       "width": 600,
       "height": 800,
       "num_regions_total": 325,
       "num_regions_traced": 267,
-      "num_regions_dropped_as_noise": 58
+      "num_regions_merged_as_noise": 58
     },
     {
-      "file": "C:\\Users\\Admin\\3D Objects\\trace art\\input\\anime\\lineart (11).png",
+      "file": "/Users/ngoc/Documents/Code/trace-coloring-art/input/anime/lineart (11).png",
       "ok": true,
-      "output": "C:\\Users\\Admin\\3D Objects\\trace art\\output\\anime\\lineart (11).svg",
-      "seconds": 1.98,
+      "output": "/Users/ngoc/Documents/Code/trace-coloring-art/output/anime/lineart (11).svg",
+      "seconds": 0.76,
       "width": 600,
       "height": 800,
       "num_regions_total": 202,
       "num_regions_traced": 87,
-      "num_regions_dropped_as_noise": 115
+      "num_regions_merged_as_noise": 115
     },
     {
-      "file": "C:\\Users\\Admin\\3D Objects\\trace art\\input\\anime\\lineart (12).png",
+      "file": "/Users/ngoc/Documents/Code/trace-coloring-art/input/anime/lineart (12).png",
       "ok": true,
-      "output": "C:\\Users\\Admin\\3D Objects\\trace art\\output\\anime\\lineart (12).svg",
-      "seconds": 4.12,
+      "output": "/Users/ngoc/Documents/Code/trace-coloring-art/output/anime/lineart (12).svg",
+      "seconds": 1.47,
       "width": 600,
       "height": 800,
       "num_regions_total": 325,
       "num_regions_traced": 186,
-      "num_regions_dropped_as_noise": 139
+      "num_regions_merged_as_noise": 139
     },
     {
-      "file": "C:\\Users\\Admin\\3D Objects\\trace art\\input\\anime\\lineart (2).png",
+      "file": "/Users/ngoc/Documents/Code/trace-coloring-art/input/anime/lineart (2).png",
       "ok": true,
-      "output": "C:\\Users\\Admin\\3D Objects\\trace art\\output\\anime\\lineart (2).svg",
-      "seconds": 6.16,
+      "output": "/Users/ngoc/Documents/Code/trace-coloring-art/output/anime/lineart (2).svg",
+      "seconds": 2.11,
       "width": 600,
       "height": 800,
       "num_regions_total": 347,
       "num_regions_traced": 273,
-      "num_regions_dropped_as_noise": 74
+      "num_regions_merged_as_noise": 74
     },
     {
-      "file": "C:\\Users\\Admin\\3D Objects\\trace art\\input\\anime\\lineart (3).png",
+      "file": "/Users/ngoc/Documents/Code/trace-coloring-art/input/anime/lineart (3).png",
       "ok": true,
-      "output": "C:\\Users\\Admin\\3D Objects\\trace art\\output\\anime\\lineart (3).svg",
-      "seconds": 4.24,
+      "output": "/Users/ngoc/Documents/Code/trace-coloring-art/output/anime/lineart (3).svg",
+      "seconds": 1.42,
       "width": 600,
       "height": 800,
       "num_regions_total": 279,
       "num_regions_traced": 181,
-      "num_regions_dropped_as_noise": 98
+      "num_regions_merged_as_noise": 98
     },
     {
-      "file": "C:\\Users\\Admin\\3D Objects\\trace art\\input\\anime\\lineart (4).png",
+      "file": "/Users/ngoc/Documents/Code/trace-coloring-art/input/anime/lineart (4).png",
       "ok": true,
-      "output": "C:\\Users\\Admin\\3D Objects\\trace art\\output\\anime\\lineart (4).svg",
-      "seconds": 4.6,
+      "output": "/Users/ngoc/Documents/Code/trace-coloring-art/output/anime/lineart (4).svg",
+      "seconds": 1.5,
       "width": 600,
       "height": 800,
       "num_regions_total": 265,
       "num_regions_traced": 192,
-      "num_regions_dropped_as_noise": 73
+      "num_regions_merged_as_noise": 73
     },
     {
-      "file": "C:\\Users\\Admin\\3D Objects\\trace art\\input\\anime\\lineart (5).png",
+      "file": "/Users/ngoc/Documents/Code/trace-coloring-art/input/anime/lineart (5).png",
       "ok": true,
-      "output": "C:\\Users\\Admin\\3D Objects\\trace art\\output\\anime\\lineart (5).svg",
-      "seconds": 2.57,
+      "output": "/Users/ngoc/Documents/Code/trace-coloring-art/output/anime/lineart (5).svg",
+      "seconds": 0.88,
       "width": 600,
       "height": 800,
       "num_regions_total": 197,
       "num_regions_traced": 110,
-      "num_regions_dropped_as_noise": 87
+      "num_regions_merged_as_noise": 87
     },
     {
-      "file": "C:\\Users\\Admin\\3D Objects\\trace art\\input\\anime\\lineart (6).png",
+      "file": "/Users/ngoc/Documents/Code/trace-coloring-art/input/anime/lineart (6).png",
       "ok": true,
-      "output": "C:\\Users\\Admin\\3D Objects\\trace art\\output\\anime\\lineart (6).svg",
-      "seconds": 5.2,
+      "output": "/Users/ngoc/Documents/Code/trace-coloring-art/output/anime/lineart (6).svg",
+      "seconds": 2.0,
       "width": 600,
       "height": 800,
       "num_regions_total": 290,
       "num_regions_traced": 218,
-      "num_regions_dropped_as_noise": 72
+      "num_regions_merged_as_noise": 72
     },
     {
-      "file": "C:\\Users\\Admin\\3D Objects\\trace art\\input\\anime\\lineart (7).png",
+      "file": "/Users/ngoc/Documents/Code/trace-coloring-art/input/anime/lineart (7).png",
       "ok": true,
-      "output": "C:\\Users\\Admin\\3D Objects\\trace art\\output\\anime\\lineart (7).svg",
-      "seconds": 3.63,
+      "output": "/Users/ngoc/Documents/Code/trace-coloring-art/output/anime/lineart (7).svg",
+      "seconds": 1.43,
       "width": 600,
       "height": 800,
       "num_regions_total": 191,
       "num_regions_traced": 146,
-      "num_regions_dropped_as_noise": 45
+      "num_regions_merged_as_noise": 45
     },
     {
-      "file": "C:\\Users\\Admin\\3D Objects\\trace art\\input\\anime\\lineart (8).png",
+      "file": "/Users/ngoc/Documents/Code/trace-coloring-art/input/anime/lineart (8).png",
       "ok": true,
-      "output": "C:\\Users\\Admin\\3D Objects\\trace art\\output\\anime\\lineart (8).svg",
-      "seconds": 2.18,
+      "output": "/Users/ngoc/Documents/Code/trace-coloring-art/output/anime/lineart (8).svg",
+      "seconds": 0.82,
       "width": 600,
       "height": 800,
       "num_regions_total": 151,
       "num_regions_traced": 86,
-      "num_regions_dropped_as_noise": 65
+      "num_regions_merged_as_noise": 65
     },
     {
-      "file": "C:\\Users\\Admin\\3D Objects\\trace art\\input\\anime\\lineart (9).png",
+      "file": "/Users/ngoc/Documents/Code/trace-coloring-art/input/anime/lineart (9).png",
       "ok": true,
-      "output": "C:\\Users\\Admin\\3D Objects\\trace art\\output\\anime\\lineart (9).svg",
-      "seconds": 5.2,
+      "output": "/Users/ngoc/Documents/Code/trace-coloring-art/output/anime/lineart (9).svg",
+      "seconds": 1.96,
       "width": 600,
       "height": 800,
       "num_regions_total": 273,
       "num_regions_traced": 216,
-      "num_regions_dropped_as_noise": 57
+      "num_regions_merged_as_noise": 57
     },
     {
-      "file": "C:\\Users\\Admin\\3D Objects\\trace art\\input\\people\\thumb-1.png",
+      "file": "/Users/ngoc/Documents/Code/trace-coloring-art/input/people/thumb-1.png",
       "ok": true,
-      "output": "C:\\Users\\Admin\\3D Objects\\trace art\\output\\people\\thumb-1.svg",
-      "seconds": 10.72,
+      "output": "/Users/ngoc/Documents/Code/trace-coloring-art/output/people/thumb-1.svg",
+      "seconds": 4.41,
       "width": 600,
       "height": 800,
       "num_regions_total": 630,
       "num_regions_traced": 485,
-      "num_regions_dropped_as_noise": 145
+      "num_regions_merged_as_noise": 145
     },
     {
-      "file": "C:\\Users\\Admin\\3D Objects\\trace art\\input\\people\\thumb-10.png",
+      "file": "/Users/ngoc/Documents/Code/trace-coloring-art/input/people/thumb-10.png",
       "ok": true,
-      "output": "C:\\Users\\Admin\\3D Objects\\trace art\\output\\people\\thumb-10.svg",
-      "seconds": 7.63,
+      "output": "/Users/ngoc/Documents/Code/trace-coloring-art/output/people/thumb-10.svg",
+      "seconds": 3.23,
       "width": 600,
       "height": 800,
       "num_regions_total": 540,
       "num_regions_traced": 349,
-      "num_regions_dropped_as_noise": 191
+      "num_regions_merged_as_noise": 191
     },
     {
-      "file": "C:\\Users\\Admin\\3D Objects\\trace art\\input\\people\\thumb-11.png",
+      "file": "/Users/ngoc/Documents/Code/trace-coloring-art/input/people/thumb-11.png",
       "ok": true,
-      "output": "C:\\Users\\Admin\\3D Objects\\trace art\\output\\people\\thumb-11.svg",
-      "seconds": 11.74,
+      "output": "/Users/ngoc/Documents/Code/trace-coloring-art/output/people/thumb-11.svg",
+      "seconds": 4.54,
       "width": 600,
       "height": 800,
       "num_regions_total": 650,
       "num_regions_traced": 494,
-      "num_regions_dropped_as_noise": 156
+      "num_regions_merged_as_noise": 156
     },
     {
-      "file": "C:\\Users\\Admin\\3D Objects\\trace art\\input\\people\\thumb-2.png",
+      "file": "/Users/ngoc/Documents/Code/trace-coloring-art/input/people/thumb-2.png",
       "ok": true,
-      "output": "C:\\Users\\Admin\\3D Objects\\trace art\\output\\people\\thumb-2.svg",
-      "seconds": 10.51,
+      "output": "/Users/ngoc/Documents/Code/trace-coloring-art/output/people/thumb-2.svg",
+      "seconds": 4.12,
       "width": 600,
       "height": 800,
       "num_regions_total": 518,
       "num_regions_traced": 445,
-      "num_regions_dropped_as_noise": 73
+      "num_regions_merged_as_noise": 73
     },
     {
-      "file": "C:\\Users\\Admin\\3D Objects\\trace art\\input\\people\\thumb-3.png",
+      "file": "/Users/ngoc/Documents/Code/trace-coloring-art/input/people/thumb-3.png",
       "ok": true,
-      "output": "C:\\Users\\Admin\\3D Objects\\trace art\\output\\people\\thumb-3.svg",
-      "seconds": 7.2,
+      "output": "/Users/ngoc/Documents/Code/trace-coloring-art/output/people/thumb-3.svg",
+      "seconds": 2.93,
       "width": 600,
       "height": 800,
       "num_regions_total": 383,
       "num_regions_traced": 309,
-      "num_regions_dropped_as_noise": 74
+      "num_regions_merged_as_noise": 74
     },
     {
-      "file": "C:\\Users\\Admin\\3D Objects\\trace art\\input\\people\\thumb-4.png",
+      "file": "/Users/ngoc/Documents/Code/trace-coloring-art/input/people/thumb-4.png",
       "ok": true,
-      "output": "C:\\Users\\Admin\\3D Objects\\trace art\\output\\people\\thumb-4.svg",
-      "seconds": 6.53,
+      "output": "/Users/ngoc/Documents/Code/trace-coloring-art/output/people/thumb-4.svg",
+      "seconds": 2.64,
       "width": 600,
       "height": 800,
       "num_regions_total": 313,
       "num_regions_traced": 278,
-      "num_regions_dropped_as_noise": 35
+      "num_regions_merged_as_noise": 35
     },
     {
-      "file": "C:\\Users\\Admin\\3D Objects\\trace art\\input\\people\\thumb-5.png",
+      "file": "/Users/ngoc/Documents/Code/trace-coloring-art/input/people/thumb-5.png",
       "ok": true,
-      "output": "C:\\Users\\Admin\\3D Objects\\trace art\\output\\people\\thumb-5.svg",
-      "seconds": 2.25,
+      "output": "/Users/ngoc/Documents/Code/trace-coloring-art/output/people/thumb-5.svg",
+      "seconds": 0.88,
       "width": 600,
       "height": 800,
       "num_regions_total": 89,
       "num_regions_traced": 87,
-      "num_regions_dropped_as_noise": 2
+      "num_regions_merged_as_noise": 2
     },
     {
-      "file": "C:\\Users\\Admin\\3D Objects\\trace art\\input\\people\\thumb-6.png",
+      "file": "/Users/ngoc/Documents/Code/trace-coloring-art/input/people/thumb-6.png",
       "ok": true,
-      "output": "C:\\Users\\Admin\\3D Objects\\trace art\\output\\people\\thumb-6.svg",
-      "seconds": 2.7,
+      "output": "/Users/ngoc/Documents/Code/trace-coloring-art/output/people/thumb-6.svg",
+      "seconds": 0.96,
       "width": 600,
       "height": 800,
       "num_regions_total": 103,
       "num_regions_traced": 99,
-      "num_regions_dropped_as_noise": 4
+      "num_regions_merged_as_noise": 4
     },
     {
-      "file": "C:\\Users\\Admin\\3D Objects\\trace art\\input\\people\\thumb-7.png",
+      "file": "/Users/ngoc/Documents/Code/trace-coloring-art/input/people/thumb-7.png",
       "ok": true,
-      "output": "C:\\Users\\Admin\\3D Objects\\trace art\\output\\people\\thumb-7.svg",
-      "seconds": 2.06,
+      "output": "/Users/ngoc/Documents/Code/trace-coloring-art/output/people/thumb-7.svg",
+      "seconds": 0.66,
       "width": 600,
       "height": 800,
       "num_regions_total": 92,
       "num_regions_traced": 85,
-      "num_regions_dropped_as_noise": 7
+      "num_regions_merged_as_noise": 7
     },
     {
-      "file": "C:\\Users\\Admin\\3D Objects\\trace art\\input\\people\\thumb-8.png",
+      "file": "/Users/ngoc/Documents/Code/trace-coloring-art/input/people/thumb-8.png",
       "ok": true,
-      "output": "C:\\Users\\Admin\\3D Objects\\trace art\\output\\people\\thumb-8.svg",
-      "seconds": 5.98,
+      "output": "/Users/ngoc/Documents/Code/trace-coloring-art/output/people/thumb-8.svg",
+      "seconds": 2.08,
       "width": 600,
       "height": 800,
       "num_regions_total": 272,
       "num_regions_traced": 252,
-      "num_regions_dropped_as_noise": 20
+      "num_regions_merged_as_noise": 20
     },
     {
-      "file": "C:\\Users\\Admin\\3D Objects\\trace art\\input\\people\\thumb-9.png",
+      "file": "/Users/ngoc/Documents/Code/trace-coloring-art/input/people/thumb-9.png",
       "ok": true,
-      "output": "C:\\Users\\Admin\\3D Objects\\trace art\\output\\people\\thumb-9.svg",
-      "seconds": 5.45,
+      "output": "/Users/ngoc/Documents/Code/trace-coloring-art/output/people/thumb-9.svg",
+      "seconds": 2.01,
       "width": 600,
       "height": 800,
       "num_regions_total": 465,
       "num_regions_traced": 228,
-      "num_regions_dropped_as_noise": 237
+      "num_regions_merged_as_noise": 237
     },
     {
-      "file": "C:\\Users\\Admin\\3D Objects\\trace art\\input\\people\\thumb.png",
+      "file": "/Users/ngoc/Documents/Code/trace-coloring-art/input/people/thumb.png",
       "ok": true,
-      "output": "C:\\Users\\Admin\\3D Objects\\trace art\\output\\people\\thumb.svg",
-      "seconds": 3.47,
+      "output": "/Users/ngoc/Documents/Code/trace-coloring-art/output/people/thumb.svg",
+      "seconds": 1.34,
       "width": 600,
       "height": 800,
       "num_regions_total": 171,
       "num_regions_traced": 167,
-      "num_regions_dropped_as_noise": 4
+      "num_regions_merged_as_noise": 4
     }
   ]
 }

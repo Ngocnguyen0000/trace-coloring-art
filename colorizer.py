@@ -43,6 +43,7 @@ from tracer import (
     _check_potrace,
     _load_ink_mask,
     _potrace_svg_path,
+    _label_regions,
 )
 
 
@@ -76,7 +77,7 @@ class ColorizeResult:
     height: int
     num_regions_total: int
     num_regions_traced: int
-    num_regions_dropped_as_noise: int
+    num_regions_merged_as_noise: int
     num_regions_colored: int
     palette_count: int
 
@@ -299,24 +300,15 @@ def trace_and_colorize(
     with tempfile.TemporaryDirectory(prefix="lineart_color_") as workdir:
         black_d = _potrace_svg_path(ink, W, H, trace_cfg, workdir, "ink")
 
-        n_labels, labels, stats, _ = cv2.connectedComponentsWithStats(
-            bg, connectivity=trace_cfg.connectivity
-        )
-        region_labels = list(range(1, n_labels))
-        total_regions = len(region_labels)
+        merged_labels, final_labels, total_regions, num_merged = _label_regions(bg, trace_cfg)
 
         region_ds: list[str] = []
         region_colors: list[tuple[float, float, float]] = []
         region_weights: list[float] = []
-        dropped = 0
         colored = 0
 
-        for lbl in region_labels:
-            area = stats[lbl, cv2.CC_STAT_AREA]
-            if area < trace_cfg.min_region_area:
-                dropped += 1
-                continue
-            region_mask = (labels == lbl).astype(np.uint8)
+        for lbl in final_labels:
+            region_mask = (merged_labels == lbl).astype(np.uint8)
             d = _potrace_svg_path(region_mask, W, H, trace_cfg, workdir, f"region_{lbl}")
             if not d:
                 continue
@@ -330,7 +322,7 @@ def trace_and_colorize(
 
             region_ds.append(d)
             region_colors.append(rgb)
-            region_weights.append(float(area))
+            region_weights.append(float(region_mask.sum()))
 
     mapped, palette_count = _quantize(region_colors, region_weights, color_cfg.max_colors)
     fills = [_hex(c) for c in mapped]
@@ -346,7 +338,7 @@ def trace_and_colorize(
         height=H,
         num_regions_total=total_regions,
         num_regions_traced=len(region_ds),
-        num_regions_dropped_as_noise=dropped,
+        num_regions_merged_as_noise=num_merged,
         num_regions_colored=colored,
         palette_count=palette_count,
     )

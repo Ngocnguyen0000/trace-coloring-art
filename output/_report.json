@@ -1,0 +1,293 @@
+{
+  "total": 26,
+  "ok": 26,
+  "failed": 0,
+  "results": [
+    {
+      "file": "C:\\Users\\Admin\\3D Objects\\trace art\\input\\Meccha Chameleon\\1.png",
+      "ok": true,
+      "output": "C:\\Users\\Admin\\3D Objects\\trace art\\output\\Meccha Chameleon\\1.svg",
+      "seconds": 0.13,
+      "width": 600,
+      "height": 800,
+      "num_regions_total": 2,
+      "num_regions_traced": 2,
+      "num_regions_dropped_as_noise": 0
+    },
+    {
+      "file": "C:\\Users\\Admin\\3D Objects\\trace art\\input\\Meccha Chameleon\\2.png",
+      "ok": true,
+      "output": "C:\\Users\\Admin\\3D Objects\\trace art\\output\\Meccha Chameleon\\2.svg",
+      "seconds": 0.17,
+      "width": 600,
+      "height": 800,
+      "num_regions_total": 4,
+      "num_regions_traced": 4,
+      "num_regions_dropped_as_noise": 0
+    },
+    {
+      "file": "C:\\Users\\Admin\\3D Objects\\trace art\\input\\Meccha Chameleon\\3.png",
+      "ok": true,
+      "output": "C:\\Users\\Admin\\3D Objects\\trace art\\output\\Meccha Chameleon\\3.svg",
+      "seconds": 0.13,
+      "width": 600,
+      "height": 800,
+      "num_regions_total": 2,
+      "num_regions_traced": 2,
+      "num_regions_dropped_as_noise": 0
+    },
+    {
+      "file": "C:\\Users\\Admin\\3D Objects\\trace art\\input\\Meccha Chameleon\\4.png",
+      "ok": true,
+      "output": "C:\\Users\\Admin\\3D Objects\\trace art\\output\\Meccha Chameleon\\4.svg",
+      "seconds": 0.15,
+      "width": 600,
+      "height": 800,
+      "num_regions_total": 3,
+      "num_regions_traced": 3,
+      "num_regions_dropped_as_noise": 0
+    },
+    {
+      "file": "C:\\Users\\Admin\\3D Objects\\trace art\\input\\Meccha Chameleon\\5.png",
+      "ok": true,
+      "output": "C:\\Users\\Admin\\3D Objects\\trace art\\output\\Meccha Chameleon\\5.svg",
+      "seconds": 0.14,
+      "width": 600,
+      "height": 800,
+      "num_regions_total": 3,
+      "num_regions_traced": 3,
+      "num_regions_dropped_as_noise": 0
+    },
+    {
+      "file": "C:\\Users\\Admin\\3D Objects\\trace art\\input\\Meccha Chameleon\\6.png",
+      "ok": true,
+      "output": "C:\\Users\\Admin\\3D Objects\\trace art\\output\\Meccha Chameleon\\6.svg",
+      "seconds": 0.16,
+      "width": 600,
+      "height": 800,
+      "num_regions_total": 3,
+      "num_regions_traced": 3,
+      "num_regions_dropped_as_noise": 0
+    },
+    {
+      "file": "C:\\Users\\Admin\\3D Objects\\trace art\\input\\Meccha Chameleon\\7.png",
+      "ok": true,
+      "output": "C:\\Users\\Admin\\3D Objects\\trace art\\output\\Meccha Chameleon\\7.svg",
+      "seconds": 0.15,
+      "width": 600,
+      "height": 800,
+      "num_regions_total": 5,
+      "num_regions_traced": 3,
+      "num_regions_dropped_as_noise": 2
+    },
+    {
+      "file": "C:\\Users\\Admin\\3D Objects\\trace art\\input\\Meccha Chameleon\\8.png",
+      "ok": true,
+      "output": "C:\\Users\\Admin\\3D Objects\\trace art\\output\\Meccha Chameleon\\8.svg",
+      "seconds": 0.15,
+      "width": 600,
+      "height": 800,
+      "num_regions_total": 3,
+      "num_regions_traced": 3,
+      "num_regions_dropped_as_noise": 0
+    },
+    {
+      "file": "C:\\Users\\Admin\\3D Objects\\trace art\\input\\animal\\thumb-1.png",
+      "ok": true,
+      "output": "C:\\Users\\Admin\\3D Objects\\trace art\\output\\animal\\thumb-1.svg",
+      "seconds": 7.19,
+      "width": 600,
+      "height": 800,
+      "num_regions_total": 314,
+      "num_regions_traced": 301,
+      "num_regions_dropped_as_noise": 13
+    },
+    {
+      "file": "C:\\Users\\Admin\\3D Objects\\trace art\\input\\animal\\thumb-2.png",
+      "ok": true,
+      "output": "C:\\Users\\Admin\\3D Objects\\trace art\\output\\animal\\thumb-2.svg",
+      "seconds": 2.81,
+      "width": 600,
+      "height": 800,
+      "num_regions_total": 132,
+      "num_regions_traced": 118,
+      "num_regions_dropped_as_noise": 14
+    },
+    {
+      "file": "C:\\Users\\Admin\\3D Objects\\trace art\\input\\animal\\thumb-3.png",
+      "ok": true,
+      "output": "C:\\Users\\Admin\\3D Objects\\trace art\\output\\animal\\thumb-3.svg",
+      "seconds": 3.07,
+      "width": 600,
+      "height": 800,
+      "num_regions_total": 132,
+      "num_regions_traced": 131,
+      "num_regions_dropped_as_noise": 1
+    },
+    {
+      "file": "C:\\Users\\Admin\\3D Objects\\trace art\\input\\animal\\thumb-4.png",
+      "ok": true,
+      "output": "C:\\Users\\Admin\\3D Objects\\trace art\\output\\animal\\thumb-4.svg",
+      "seconds": 3.16,
+      "width": 600,
+      "height": 800,
+      "num_regions_total": 133,
+      "num_regions_traced": 128,
+      "num_regions_dropped_as_noise": 5
+    },
+    {
+      "file": "C:\\Users\\Admin\\3D Objects\\trace art\\input\\animal\\thumb-5.png",
+      "ok": true,
+      "output": "C:\\Users\\Admin\\3D Objects\\trace art\\output\\animal\\thumb-5.svg",
+      "seconds": 1.99,
+      "width": 600,
+      "height": 800,
+      "num_regions_total": 89,
+      "num_regions_traced": 88,
+      "num_regions_dropped_as_noise": 1
+    },
+    {
+      "file": "C:\\Users\\Admin\\3D Objects\\trace art\\input\\animal\\thumb.png",
+      "ok": true,
+      "output": "C:\\Users\\Admin\\3D Objects\\trace art\\output\\animal\\thumb.svg",
+      "seconds": 4.93,
+      "width": 600,
+      "height": 800,
+      "num_regions_total": 241,
+      "num_regions_traced": 186,
+      "num_regions_dropped_as_noise": 55
+    },
+    {
+      "file": "C:\\Users\\Admin\\3D Objects\\trace art\\input\\anime\\lineart (1).png",
+      "ok": true,
+      "output": "C:\\Users\\Admin\\3D Objects\\trace art\\output\\anime\\lineart (1).svg",
+      "seconds": 2.31,
+      "width": 600,
+      "height": 800,
+      "num_regions_total": 107,
+      "num_regions_traced": 87,
+      "num_regions_dropped_as_noise": 20
+    },
+    {
+      "file": "C:\\Users\\Admin\\3D Objects\\trace art\\input\\anime\\lineart (10).png",
+      "ok": true,
+      "output": "C:\\Users\\Admin\\3D Objects\\trace art\\output\\anime\\lineart (10).svg",
+      "seconds": 6.53,
+      "width": 600,
+      "height": 800,
+      "num_regions_total": 325,
+      "num_regions_traced": 267,
+      "num_regions_dropped_as_noise": 58
+    },
+    {
+      "file": "C:\\Users\\Admin\\3D Objects\\trace art\\input\\anime\\lineart (11).png",
+      "ok": true,
+      "output": "C:\\Users\\Admin\\3D Objects\\trace art\\output\\anime\\lineart (11).svg",
+      "seconds": 2.21,
+      "width": 600,
+      "height": 800,
+      "num_regions_total": 202,
+      "num_regions_traced": 87,
+      "num_regions_dropped_as_noise": 115
+    },
+    {
+      "file": "C:\\Users\\Admin\\3D Objects\\trace art\\input\\anime\\lineart (12).png",
+      "ok": true,
+      "output": "C:\\Users\\Admin\\3D Objects\\trace art\\output\\anime\\lineart (12).svg",
+      "seconds": 4.55,
+      "width": 600,
+      "height": 800,
+      "num_regions_total": 325,
+      "num_regions_traced": 186,
+      "num_regions_dropped_as_noise": 139
+    },
+    {
+      "file": "C:\\Users\\Admin\\3D Objects\\trace art\\input\\anime\\lineart (2).png",
+      "ok": true,
+      "output": "C:\\Users\\Admin\\3D Objects\\trace art\\output\\anime\\lineart (2).svg",
+      "seconds": 6.72,
+      "width": 600,
+      "height": 800,
+      "num_regions_total": 347,
+      "num_regions_traced": 273,
+      "num_regions_dropped_as_noise": 74
+    },
+    {
+      "file": "C:\\Users\\Admin\\3D Objects\\trace art\\input\\anime\\lineart (3).png",
+      "ok": true,
+      "output": "C:\\Users\\Admin\\3D Objects\\trace art\\output\\anime\\lineart (3).svg",
+      "seconds": 4.38,
+      "width": 600,
+      "height": 800,
+      "num_regions_total": 279,
+      "num_regions_traced": 181,
+      "num_regions_dropped_as_noise": 98
+    },
+    {
+      "file": "C:\\Users\\Admin\\3D Objects\\trace art\\input\\anime\\lineart (4).png",
+      "ok": true,
+      "output": "C:\\Users\\Admin\\3D Objects\\trace art\\output\\anime\\lineart (4).svg",
+      "seconds": 4.82,
+      "width": 600,
+      "height": 800,
+      "num_regions_total": 265,
+      "num_regions_traced": 192,
+      "num_regions_dropped_as_noise": 73
+    },
+    {
+      "file": "C:\\Users\\Admin\\3D Objects\\trace art\\input\\anime\\lineart (5).png",
+      "ok": true,
+      "output": "C:\\Users\\Admin\\3D Objects\\trace art\\output\\anime\\lineart (5).svg",
+      "seconds": 2.76,
+      "width": 600,
+      "height": 800,
+      "num_regions_total": 197,
+      "num_regions_traced": 110,
+      "num_regions_dropped_as_noise": 87
+    },
+    {
+      "file": "C:\\Users\\Admin\\3D Objects\\trace art\\input\\anime\\lineart (6).png",
+      "ok": true,
+      "output": "C:\\Users\\Admin\\3D Objects\\trace art\\output\\anime\\lineart (6).svg",
+      "seconds": 5.11,
+      "width": 600,
+      "height": 800,
+      "num_regions_total": 290,
+      "num_regions_traced": 218,
+      "num_regions_dropped_as_noise": 72
+    },
+    {
+      "file": "C:\\Users\\Admin\\3D Objects\\trace art\\input\\anime\\lineart (7).png",
+      "ok": true,
+      "output": "C:\\Users\\Admin\\3D Objects\\trace art\\output\\anime\\lineart (7).svg",
+      "seconds": 3.32,
+      "width": 600,
+      "height": 800,
+      "num_regions_total": 191,
+      "num_regions_traced": 146,
+      "num_regions_dropped_as_noise": 45
+    },
+    {
+      "file": "C:\\Users\\Admin\\3D Objects\\trace art\\input\\anime\\lineart (8).png",
+      "ok": true,
+      "output": "C:\\Users\\Admin\\3D Objects\\trace art\\output\\anime\\lineart (8).svg",
+      "seconds": 2.09,
+      "width": 600,
+      "height": 800,
+      "num_regions_total": 151,
+      "num_regions_traced": 86,
+      "num_regions_dropped_as_noise": 65
+    },
+    {
+      "file": "C:\\Users\\Admin\\3D Objects\\trace art\\input\\anime\\lineart (9).png",
+      "ok": true,
+      "output": "C:\\Users\\Admin\\3D Objects\\trace art\\output\\anime\\lineart (9).svg",
+      "seconds": 4.76,
+      "width": 600,
+      "height": 800,
+      "num_regions_total": 273,
+      "num_regions_traced": 216,
+      "num_regions_dropped_as_noise": 57
+    }
+  ]
+}

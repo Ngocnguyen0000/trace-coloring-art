@@ -2,3 +2,5 @@ numpy
 opencv-python-headless
 Pillow
 scipy
+Flask
+gunicorn

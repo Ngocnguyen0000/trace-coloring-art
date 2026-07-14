@@ -1,7 +1,0 @@
-services:
-  - type: web
-    name: trace-coloring-art
-    runtime: docker
-    plan: free
-    dockerfilePath: ./Dockerfile
-    healthCheckPath: /
